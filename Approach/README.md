@@ -5,4 +5,4 @@ We provide two notebooks for collecting various statistical and non-statistical 
 - Approach 2: Sensitivity to noise 
 - Approach 3: Statistical measures
 
-Our detectors are combination of these approaches. We collect different metrics based on these approaches for both bengin and adversarial images. We only use measures from benign images to learn thresholds for our adversarial detectors. We use adversarial measures for visualization purposes. 
+Our detectors are combination of these approaches. We collect different metrics based on these approaches for both bengin and adversarial images and save them in csv files. We use measures from benign images to learn thresholds for our adversarial detectors. We use adversarial measures for visualization purposes only. 

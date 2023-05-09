@@ -1,7 +1,3 @@
 # X-AID: Explanation based adversarial detection using feature attribution methods 
 
-Repository for the paper "X-AID: Explanation based adversarial detection using feature attribution methods" submitted at ACM CCS 2023. 
-
-This paper provides our implmentation of various feature attribution based unsupervised adversarial detectors. We use integrated gradient method to extract various features of benign images and train three different detectors.
-
-Each folder consists of implementation of each approach. 
+Based on the csv files saved from running notebooks in Approach folder, we compute threshold for benign images using these notebooks. A threshold is a range of values that classifies a given metric as benign. Such thresholds are chosen that return 1% FPR on the train set. 
