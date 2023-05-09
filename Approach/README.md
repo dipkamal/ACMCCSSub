@@ -1,7 +1,3 @@
 # X-AID: Explanation based adversarial detection using feature attribution methods 
 
-Repository for the paper "X-AID: Explanation based adversarial detection using feature attribution methods" submitted at ACM CCS 2023. 
-
-This paper provides our implmentation of various feature attribution based unsupervised adversarial detectors. We use integrated gradient method to extract various features of benign images and train three different detectors.
-
-Each folder consists of implementation of each approach. 
+We provide two notebooks for collecting various statistical and non-statistical measures of benign and adversarial images for MNIST, CIFAR and ImageNet. We only use measures from benign images to learn thresholds for our adversarial detectors. We use adversarial measures for visualization purposes. 
